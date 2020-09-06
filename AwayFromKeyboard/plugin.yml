@@ -1,0 +1,31 @@
+main: awayFromKeyboard.AwayFromKeyboard
+name: AwayFromKeyboard
+version: 1.0.0
+description: AwayFromKeyboard plugin
+api-version: 1.16
+Author: _NickV
+commands:
+  afk:
+    description: Main command  
+permissions:
+  afk.list:
+    description: Use the /afk list subcommand
+    default: true
+  afk.goafk:
+    description: Use the /afk command
+    default: true
+  afk.changetime:
+    description: Use the settime command
+    default: op
+  afk.reload:
+    description: Use ther /afk reload command
+    default: op
+  afk.kickall:
+    description: Kick all AFK players
+    default: op
+  afk.menu:
+    description: View the plugin menu
+    default: true
+  afk.seenotifications:
+    description: View plugin notifications
+    default: true
